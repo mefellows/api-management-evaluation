@@ -5,6 +5,7 @@ resolvers += Resolver.url("typesafe", url("http://repo.typesafe.com/typesafe/ivy
 
 giter8.ScaffoldPlugin.scaffoldSettings
 
+resolvers += "Typesafe" at "http://repo.typesafe.com/typesafe/releases/"
 
 name := "api-management-evaluation"
 
